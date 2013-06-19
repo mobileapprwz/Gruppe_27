@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    style="@style/listlayout">
+
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/fs_btn_update"
+        android:text="@string/fs_btn_update" 
+        android:onClick="updateFavorites"
+        android:layout_alignParentBottom="true" 
+        android:layout_margin="4dp"
+        style="@style/buttonstyle"/>
+
+    <ListView 
+        android:id="@+id/fsl_lv_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_alignParentTop="true" 
+        android:layout_above="@id/fs_btn_update" />
+
+</RelativeLayout>

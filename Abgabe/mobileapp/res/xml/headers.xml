@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header 
+        android:fragment="com.example.prefs.ProfileSettingsFragment"
+        android:title="@string/pref_cat_profile"
+        android:summary="@string/pref_cat_sum_profile" />
+    <header 
+        android:title="@string/pref_cat_favorites"
+        android:summary="@string/pref_cat_sum_favorites" >
+        <intent android:action="com.example.prefs.favorites.FavoriteSettingsActivity" />
+    </header>
+
+</preference-headers>

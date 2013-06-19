@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp" 
+    style="@style/listlayout">
+ 
+
+    <TextView
+        android:id="@+id/el_txtv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp"
+        android:text="Title"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/el_txtv_currentattendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/el_txtv_title"
+        android:gravity="right"
+        android:text="00/00" />
+
+    <TextView
+        android:id="@+id/el_txtv_creator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/el_txtv_title"
+        android:layout_below="@+id/el_txtv_title"
+        android:text="Creator" />
+ 
+</RelativeLayout>

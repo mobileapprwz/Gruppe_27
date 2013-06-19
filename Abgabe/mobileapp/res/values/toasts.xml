@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--home activity  -->
+    <string name="toast_loading">Retrieving data...     </string>
+    <string name="toast_no_events">No events in this category.     </string>
+    
+    <!--register activity  -->
+    <string name="toast_sending">Sending data...     </string>
+    <string name="toast_check_username">Checking username availablity...     </string>    
+    <string name="toast_transfer_userdata">Transfering userdata...     </string>
+    <string name="toast_registrated_success">Successfully registrated.     </string>
+    <string name="toast_registrated_failed">Registration failed.     </string>
+    <string name="toast_name_conflict">There is already an user with this name registrated...     </string>
+    <string name="toast_business_terms">Please accept our Business Terms.     </string>
+    <string name="toast_password_conflict">Password repetition doesn\'t match password.     </string>
+    <string name="toast_insert_password">Please insert a password.     </string>
+    <string name="toast_insert_email">Please insert an email.     </string>
+    <string name="toast_insert_username">Please insert an username.     </string>
+     <string name="toast_check_data">Checking login data...     </string>
+    <string name="toast_load_categories">Loading categories...     </string>
+    <string name="toast_load_favs">Loading favorites...     </string>
+    <string name="toast_load_events">Loading my events...     </string>
+     <!--start activity  -->
+    <string name="toast_invalid_pw">Invalid password.     </string>
+	<string name="toast_user_not_found">User not found.     </string>
+    <string name="toast_unable_to_db">Unable to connnect to database.     </string>
+    <!--Edit/New Event activity  -->
+    <string name="toast_submit_event">Submit event...     </string>
+    <!--event details activity  -->
+    <string name="toast_already_joined">You are already registrated for this event.     </string>
+     <string name="toast_max_user_count">Max user count reached.     </string>
+     <string name="toast_sign_off">Successfully signed off.     </string>
+     <string name="toast_log_in">Successfully registrated.     </string>
+     <string name="toast_deadline_expired">Deadline expired.     </string>
+     
+     <!--event list activity  -->
+     <string name="toast_get_event">Retrieving event data...     </string>
+     <!--name pref activity  -->
+    <string name="toast_nothing_to_change">Nothing to change.     </string>
+    <string name="toast_change_username">Changing username...     </string>
+    <string name="toast_change_name_success">Changed name successfully.     </string>
+    <!--pw pref activity  -->
+    <string name="toast_valid_pw_plz">Please enter a password with more than 0 letters.     </string>
+    <string name="toast_change_pw">Changing password...     </string>
+    <string name="toast_check_old_pw">Checking old password validity...     </string>
+     <string name="toast_pw_change_success">Password changes successfully...     </string>
+     <string name="toast_userlist">No users registrated.     </string>
+     <string name="toast_event_delete">Event successfully deleted.     </string>
+     <string name="toast_favorite_changed">Favorites changed successfully.     </string>
+     
+     
+     
+    
+    
+    
+</resources>

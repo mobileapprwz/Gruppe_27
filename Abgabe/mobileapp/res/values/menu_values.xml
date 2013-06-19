@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_username">None</string>
+    <string name="action_browse">Browse</string>
+    <string name="action_settings">Settings</string>
+     <string name="action_logout">Logout</string>
+ 	<string name="action_home">Home</string>
+ 	
+ 	
+ 	<string name="action_delete">Delete</string>
+ 	<string name="action_join">Join</string>
+ 	<string name="action_edit">Edit</string>
+ 	<string name="action_userlist">Show Userlist</string>
+ 	<string name="action_view_events">Search for Events</string>
+ 	<string name="action_new_event">Create new Event</string>
+</resources>

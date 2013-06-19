@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reg_hint_name">Name</string>
+    <string name="reg_hint_email">example@provider.net</string>
+    <string name="reg_hint_password">Password</string>
+    <string name="reg_hint_reppassword">Repeat password</string>
+    <string name="reg_btn_cancel">Cancel</string>
+    <string name="reg_btn_submit">Submit</string>
+    <string name="reg_chk_agb">Accept general business terms</string>
+    <string name="reg_btn_close">Close</string>
+    <string name="title_reg">Register Account</string>
+    <string name="reg_txt_agb">Availability: Unless otherwise stated, the services featured on this website are only available within the United Kingdom, or in relation to postings from the United Kingdom. All advertising is intended solely for the United Kingdom market. You are solely responsible for evaluating the fitness for a particular purpose of any downloads, programs and text available through this site. Redistribution or republication of any part of this site or its content is prohibited, including such by framing or other similar or any other means, without the express written consent of the Company. The Company does not warrant that the service from this site will be uninterrupted, timely or error free, although it is provided to the best ability. By using this service you thereby indemnify this Company, its employees, agents and affiliates against any loss or damage, in whatever manner, howsoever caused.
+        Log Files: We use IP addresses to analyse trends, administer the site, track user‟s movement, and gather broad demographic information for aggregate use. IP addresses are not linked to personally identifiable information. Additionally, for systems administration, detecting usage patterns and troubleshooting purposes, our web servers automatically log standard access information including browser type, access times/open mail, URL requested, and referral URL. This information is not shared with third parties and is used only within this Company on a need-to-know basis. Any individually identifiable information related to this data will never be used in any way different to that stated above without your explicit permission.</string>
+</resources>

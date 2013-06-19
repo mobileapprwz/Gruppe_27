@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".EditEvent2Activity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ee2_btn_max_appeals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:onClick="maxButtonclicked"
+            android:text="@string/btn_max_guests"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/ee2_btn_min_appeals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textView1"
+            android:onClick="minButtonclicked"
+            android:text="@string/btn_min_guests"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ee2_btn_max_appeals"
+            android:text="-"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/ee2_txtv_minmax_appeals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ee2_btn_min_appeals"
+            android:layout_alignBottom="@+id/ee2_btn_min_appeals"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="14dp"
+            android:text="min/max Guests:"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ee2_btn_event_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ee2_btn_event_time"
+            android:layout_alignBottom="@+id/ee2_btn_event_time"
+            android:layout_alignParentRight="true"
+            android:onClick="showDatePickerDialog"
+            android:text="@string/btn_date"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/ee2_btn_event_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/ee2_btn_event_date"
+            android:onClick="showTimePickerDialog"
+            android:text="@string/btn_time"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/ee2_txtv_event_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ee2_btn_event_time"
+            android:layout_alignBottom="@+id/ee2_btn_event_time"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="14dp"
+            android:text="Event Time/Date: "
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ee2_btn_registration_to_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:onClick="showRegtoDatePickerDialog"
+            android:text="@string/btn_reg_to_date"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/ee2_btn_registration_to_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/ee2_btn_registration_to_date"
+            android:onClick="showRegtoTimePickerDialog"
+            android:text="@string/btn_reg_to_time"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/ee2_txtv_registration_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ee2_btn_registration_to_time"
+            android:layout_alignBottom="@+id/ee2_btn_registration_to_time"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="14dp"
+            android:text="Registration deadline: "
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+    
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/ee2_btn_Save"
+        android:text="@string/reg_btn_submit" 
+        android:onClick="saveEvent"
+        android:layout_margin="4dp"
+        style="@style/buttonstyle"/>
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobileapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/mainstyle" >
+        <activity
+            android:name="com.example.mobileapp.StartActivity"
+            android:label="@string/start_title"
+            android:launchMode="singleTask" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mobileapp.RegisterActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_reg"
+            android:launchMode="singleTask" 
+			  android:parentActivityName="com.example.mobileapp.StartActivity" >
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.mobileapp.StartActivity" />
+        </activity>
+        <activity
+            android:name="com.example.prefs.SettingsActivity"
+            android:label="@string/title_settings" 
+            android:parentActivityName="com.example.mobileapp.HomeActivity" >
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.mobileapp.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.mobileapp.HomeActivity"
+            android:label="@string/title_home"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.example.prefs.favorites.FavoriteSettingsActivity"
+            android:label="@string/title_favorite_settings" 
+			android:parentActivityName="com.example.prefs.SettingsActivity" >
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.prefs.SettingsActivity" />
+            <intent-filter>
+                <action android:name="com.example.prefs.favorites.FavoriteSettingsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mobileapp.events.EventListActivity"
+            android:label="@string/title_event_list" 
+            android:parentActivityName="com.example.mobileapp.categories.CategoriesActivity" >
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.mobileapp.categories.CategoriesActivity" />
+        </activity>
+        <activity
+            android:name="com.example.mobileapp.events.EventDetailActivity"
+            android:label="@string/title_event_detail" 
+            android:parentActivityName="com.example.mobileapp.categories.CategoriesActivity" >
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.mobileapp.categories.CategoriesActivity" />
+        </activity>
+        <activity
+            android:name="com.example.mobileapp.categories.CategoriesActivity"
+            android:label="@string/title_categories"   	
+            android:parentActivityName="com.example.mobileapp.HomeActivity" >
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.mobileapp.HomeActivity" />
+	       
+        </activity>
+        <activity
+            android:name="com.example.mobileapp.editevent.EditEventActivity"
+            android:label="@string/title_edit_event" 
+         	android:parentActivityName="com.example.mobileapp.categories.CategoriesActivity" >
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.mobileapp.categories.CategoriesActivity" />
+        </activity>
+        <activity
+            android:name="com.example.mobileapp.editevent.EditEvent2Activity"
+            android:label="@string/title_activity_edit_event_2" 
+             android:parentActivityName="com.example.mobileapp.editevent.EditEventActivity" >
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.mobileapp.editevent.EditEventActivity" />
+            
+        </activity>
+    </application>
+
+</manifest>

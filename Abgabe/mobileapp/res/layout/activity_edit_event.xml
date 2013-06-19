@@ -1,0 +1,57 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        style="@style/relativelayout">
+
+    <EditText
+        android:id="@+id/ee_editv_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:ems="10"
+        android:hint="Event Title"
+        android:singleLine="true" 
+        android:layout_alignRight="@+id/ee_btn_next"/>
+
+    <EditText
+        android:id="@+id/ee_editv_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ee_editv_title"
+        android:layout_alignTop="@+id/ee_editv_title"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Event Location"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/ee_btn_next"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+		android:layout_margin="4dp"
+        android:onClick="showEditEvent2"
+        android:text="Next" 
+        style="@style/buttonstyle"/>
+    
+        <TextView
+            android:id="@+id/ee_txtv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ee_btn_next"
+            android:layout_alignLeft="@+id/ee_editv_location"
+            android:layout_alignRight="@+id/ee_btn_next"
+            android:layout_below="@+id/ee_editv_location"
+            android:layout_marginTop="10dp"
+            android:padding="4dp"
+            android:clickable="true"
+            android:gravity="left"
+            android:onClick="showEditDescriptionDialog"
+            android:text="Event Description\nClick to Edit" />
+
+ </RelativeLayout>

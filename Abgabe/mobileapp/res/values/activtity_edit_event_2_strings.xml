@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_edit_event_2">Set Date/User</string>
+    <string name="btn_min_guests">0</string>
+    <string name="btn_max_guests">1</string>
+<string name="btn_date">22.12.2012</string>
+<string name="btn_time">22:22</string>
+<string name="btn_reg_to_time">22:22</string>
+<string name="btn_reg_to_date">22.12.2012</string>
+</resources>

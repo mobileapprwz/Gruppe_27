@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    style="@style/listlayout">
+ 
+	<ImageView 
+        android:id="@+id/cl_imgv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/start_logo"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:padding="3dp"
+        android:layout_marginRight="5dp"
+        style="@style/iconlayout" 
+        />
+
+    <TextView
+        android:id="@+id/cl_txtv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/cl_imgv_icon"
+        android:text="Title"
+        android:textSize="15dp"/>
+ 
+    <TextView
+        android:id="@+id/cl_txtv_eventcounter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cl_txtv_title"
+        android:layout_alignLeft="@+id/cl_txtv_title"
+        android:layout_marginTop="1dp"
+        android:text="33 Events" />
+    
+    <ImageView
+         android:id="@+id/cl_imgv_arrow"
+         android:layout_width="48dp"
+         android:layout_height="48dp"
+         android:layout_centerVertical="true"
+         android:layout_alignParentRight="true"
+         android:onClick="popupmenu"
+         android:src="@drawable/ic_action_overflow" />
+ 
+</RelativeLayout>

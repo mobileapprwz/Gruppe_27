@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="subcategory_icons">
+	    <item></item>
+	    <item>@drawable/football_1</item>
+	    <item>@drawable/baseball_2</item>
+	    <item>@drawable/basketball_3</item>
+	    <item>@drawable/illegal_street_racing_4</item>
+	    <item>@drawable/clothes_5</item>
+	    <item>@drawable/shoes_6</item>
+	    <item>@drawable/shopping_mall_7</item>
+	    <item>@drawable/cars_8</item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item>@drawable/houseparty_13</item>
+	    <item></item>
+	    <item>@drawable/boardgames_15</item>
+	    <item>@drawable/poker_16</item>
+	    <item>@drawable/cardgames_17</item>
+	    <item></item>
+	    <item>@drawable/mathematics_19</item>
+	    <item>@drawable/english_20</item>
+	    <item>@drawable/german_21</item>
+	    <item>@drawable/soccer_22</item>
+	    <item></item>
+	    <item>@drawable/holidays_24</item>
+	    <item>@drawable/chill_out_25</item>
+	    <item>@drawable/lecture_26</item>
+	    <item>@drawable/disco_27</item>
+	    <item>@drawable/running_28</item>
+	    <item>@drawable/swimming_29</item>
+	    <item>@drawable/regulars_table_30</item>
+	    <item>@drawable/online_31</item>
+	    <item>@drawable/movies_32</item>
+	    <item>@drawable/electronics_33</item>
+	    <item>@drawable/other_34</item>
+	    <item>@drawable/other_35</item>
+	    <item>@drawable/other_36</item>
+	    <item>@drawable/other_37</item>
+	    <item>@drawable/other_38</item>
+	    <item>@drawable/other_39</item>
+	    <item>@drawable/furniture_40</item>
+	</string-array>
+</resources>
